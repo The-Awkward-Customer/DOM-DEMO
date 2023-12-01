@@ -32,3 +32,12 @@ body.appendChild(pNew);
 const h3 = document.querySelector("h3");
 
 h3.remove();
+
+// creates list
+const ul = document.createElement("ul");
+
+body.appendChild(ul);
+
+const li = document.createElement("li");
+li.textContent = "I am a li";
+ul.appendChild(li);
